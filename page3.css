@@ -1,5 +1,5 @@
 .background{
-    background: url(../Background_Images/background_pic3.jpg); /*background image downloaded from pexels*/
+    background: url(./Background_Images/background_pic3.jpg); /*background image downloaded from pexels*/
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
