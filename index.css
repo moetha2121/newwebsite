@@ -1,5 +1,5 @@
 body{
-    background-image: url(../Background_Images/background_pic1.jpg); /*background image downloaded from pexels*/
+    background-image: url(./Background_Images/background_pic1.jpg); /*background image downloaded from pexels*/
     background-size: cover;
 }
 body, html{
