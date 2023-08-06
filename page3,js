@@ -30,3 +30,17 @@
   // Attach the handleFormSubmission function to the form's submit event
   form.addEventListener('submit', handleFormSubmission);
 })();
+document.addEventListener("DOMContentLoaded", function () {
+    // Add an event listener to the form submission
+    const form = document.querySelector(".needs-validation");
+    form.addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent the form from submitting normally
+
+      // Perform form validation here if needed
+      // ...
+
+      // If the form is valid, show the success modal
+      const successModal = new bootstrap.Modal(document.getElementById("successModal"));
+      successModal.show();
+    });
+  });
